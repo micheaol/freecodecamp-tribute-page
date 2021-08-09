@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+}
+
+#main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#img-div img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+#img-div {
+    align-items: center;
+}
+
+ul {
+    max-width: 50vw;
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 15px;
+}
+
+ul li {
+    margin: 15px;
+}
+
+#last-msg {
+    max-width: 50vw;
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 25%;
+    margin-bottom: 25px;
+}
